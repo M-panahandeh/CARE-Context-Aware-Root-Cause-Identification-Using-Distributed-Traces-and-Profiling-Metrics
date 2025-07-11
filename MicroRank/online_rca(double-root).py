@@ -231,7 +231,7 @@ def get_list(df):
     return trace_list
 if __name__ == '__main__':
 
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\double_root_NewLabeledForLatency"
+    directory = r"D:\double_root_NewLabeledForLatency"
     # List all files in the directory
     all_files = [os.path.join(directory, filename) for filename in os.listdir(directory) if filename.endswith('.pkl')]
     # Create an empty DataFrame

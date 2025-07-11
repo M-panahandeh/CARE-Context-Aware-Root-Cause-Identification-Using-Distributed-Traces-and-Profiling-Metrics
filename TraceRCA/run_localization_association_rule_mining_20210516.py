@@ -425,7 +425,7 @@ class TraceRCA:
         return ret
 
 def process_file(input_file):
-    output_file = r'D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\Debug'
+    output_file = r'D:\doubleroot'
     min_support_rate=0.1
     enable_prfl=True
     quiet=True
@@ -436,7 +436,7 @@ def process_file(input_file):
 if __name__ == "__main__":
 
     # read files input
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\NewLabeld_alpha_final"
+    directory = r"D:\NewLabeld_alpha_final"
     files = [os.path.join(directory, filename) for filename in os.listdir(directory)if filename.lower().endswith('.pkl') ]
 
     # process_file(files[0], history, fisher_threshold)

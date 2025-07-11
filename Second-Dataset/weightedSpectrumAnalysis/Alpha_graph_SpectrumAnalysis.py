@@ -673,7 +673,7 @@ if __name__ == '__main__':
         count = 0  # number of files
         sum=0
         similar_position=0
-        folder_path = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\final_Newlabeled-alpha"
+        folder_path = r"D:\final_Newlabeled-alpha"
         file_paths = [os.path.join(folder_path, filename) for filename in os.listdir(folder_path)if
          filename.endswith('.csv') and os.path.isfile(os.path.join(folder_path, filename))]
         # Create a DataFrame

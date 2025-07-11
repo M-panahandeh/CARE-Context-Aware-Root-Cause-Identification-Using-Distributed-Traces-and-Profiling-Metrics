@@ -38,7 +38,7 @@ def extract_root_cause(filename):
     return rootcause
 
 if __name__ == "__main__":
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\traceRCA"
+    directory = r"D:\traceRCA"
 
     inputs = [(os.path.join(directory, filename), extract_root_cause(filename)) for filename in os.listdir(directory) if
               filename != 'doubleroot' and os.path.isfile(os.path.join(directory, filename))]

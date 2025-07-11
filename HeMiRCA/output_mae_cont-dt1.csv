@@ -1,0 +1,11 @@
+fault_name,expected_microservice,rank,num_with_same_score
+basic_delay_0415,basic,5.0,1
+route_delay_0415,route,,0
+ticketinfo_delay_0402,ticketinfo,14.0,18
+ticketinfo_delay_0430,ticketinfo,18.0,4
+train_delay_0415,train,,0
+train_delay_0429,train,,0
+train_delay_0430,train,,0
+travel-plan_delay_0430,travel,8.0,1
+travel_delay_0415,travel,7.0,1
+user_delay_0430,user,,0

@@ -33,7 +33,7 @@ def extract_root_cause(filename):
     return 'ts-' + file_name_parts[0] + '-service' if len(file_name_parts) >= 2 else None
 
 if __name__ == "__main__":
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\TraceRCA\final\MS"
+    directory = r"D:\MS"
     # List comprehension to generate tuples containing both file paths and formatted strings (root causes)
 
     inputs = [(os.path.join(directory, filename), extract_root_cause(filename)) for filename in os.listdir(directory) if

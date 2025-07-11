@@ -134,7 +134,7 @@ def process_file(input_file,history,fisher_threshold):
 
     # Define the filename for your output file based on the input file's name
     output_features_filename = Path(input_file).name + "_features.txt"
-    output_features_file = os.path.join(r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\features", output_features_filename)
+    output_features_file = os.path.join(r"D:\features", output_features_filename)
 
 
     # call this fucntion to find useful fatures
@@ -144,7 +144,7 @@ def process_file(input_file,history,fisher_threshold):
 
 if __name__ == '__main__':
 
-    file_path = r'D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\historical_data.csv'
+    file_path = r'D:\historical_data.csv'
     # read historical data
     history = pd.read_csv(file_path)
     history = history.set_index(keys=['source', 'target'], drop=True).sort_index()
@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
     #read files
 
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData"
+    directory = r"D:\PreparedData"
     files = [os.path.join(directory, filename) for filename in os.listdir(directory) if filename != 'historical_data.csv']
 
     # Convert file paths to tasks (each task is a tuple)

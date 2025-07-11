@@ -150,11 +150,11 @@ def process_file(input_file):
 
     # Define the filename for your output file based on the input file's name
     filename = Path(input_file).name
-    output_anomaly_file = os.path.join(r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\f2_NewLabeld_alpha",
+    output_anomaly_file = os.path.join(r"D:\f2_NewLabeld_alpha",
                                         filename)
 
     #read useful features
-    directory_features = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\features2"
+    directory_features = r"D:\features2"
     # Create the full path with the _features suffix and .txt extension
     useful_feature = os.path.join(directory_features, filename + "_features.txt")
 
@@ -177,7 +177,7 @@ def process_file(input_file):
 if __name__ == '__main__':
 
     # read files
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\test"
+    directory = r"D:\test"
     files = [os.path.join(directory, filename) for filename in os.listdir(directory)]
 
 

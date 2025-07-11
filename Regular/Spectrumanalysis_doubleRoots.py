@@ -196,7 +196,7 @@ def process_file(file):
 
 
 if __name__ == '__main__':
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\double_root-NewLabeld"
+    directory = r"D:\double_root-NewLabeld"
     # List all files in the directory
     all_files = [os.path.join(directory, filename) for filename in os.listdir(directory) if filename.endswith('.pkl')]
     # Create an empty DataFrame

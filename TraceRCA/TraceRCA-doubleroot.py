@@ -39,7 +39,7 @@ def extract_root_causes(filename):
 
 
 if __name__ == "__main__":
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\TraceRCA\final\doubleroot"
+    directory = r"D:\doubleroot"
     # List comprehension to generate tuples containing both file paths and formatted strings (root causes)
 
     inputs = [(os.path.join(directory, filename), extract_root_causes(filename)) for filename in os.listdir(directory) if

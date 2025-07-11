@@ -409,7 +409,7 @@ class TraceRCA:
         return ret
 
 def process_file(input_file):
-    output_file = r'D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\traceRCA'
+    output_file = r'D:\traceRCA'
     min_support_rate=0.1
     enable_prfl=True
     quiet=True
@@ -419,7 +419,7 @@ def process_file(input_file):
 if __name__ == "__main__":
 
     # read files input
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\final_Newlabeled-alpha"
+    directory = r"D:\final_Newlabeled-alpha"
     files = [os.path.join(directory, filename) for filename in os.listdir(directory)if filename.lower().endswith('.csv') ]
 
     # process_file(files[0], history, fisher_threshold)

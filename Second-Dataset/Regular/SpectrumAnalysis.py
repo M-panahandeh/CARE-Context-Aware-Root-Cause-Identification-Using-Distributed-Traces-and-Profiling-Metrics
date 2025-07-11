@@ -190,7 +190,7 @@ def process_file(file):
 
 if __name__ == '__main__':
 
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\B\PreparedData\final_Newlabeled-alpha"
+    directory = r"D:\final_Newlabeled-alpha"
     # List all files in the directory
     all_files = [os.path.join(directory, filename) for filename in os.listdir(directory) if filename.endswith('.csv') and os.path.isfile(os.path.join(directory, filename))]
     # Create an empty DataFrame

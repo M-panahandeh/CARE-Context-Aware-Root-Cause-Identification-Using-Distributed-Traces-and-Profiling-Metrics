@@ -137,7 +137,7 @@ def process_file(input_file,history,fisher_threshold):
 
     # Define the filename for your output file based on the input file's name
     output_features_filename = Path(input_file).name + "_features.txt"
-    output_features_file = os.path.join(r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\container\features", output_features_filename)
+    output_features_file = os.path.join(r"D:\features", output_features_filename)
 
 
     # call this fucntion to find useful fatures
@@ -147,7 +147,7 @@ def process_file(input_file,history,fisher_threshold):
 
 if __name__ == '__main__':
     # Open a folder dialog for the user to select a folder
-    folder_path = r'D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\uninjection'
+    folder_path = r'D:\uninjection'
     # Initialize an empty list to store DataFrames
     history_ls = []
     # Iterate through all files in the selected folder
@@ -184,7 +184,7 @@ if __name__ == '__main__':
     fisher_threshold = 0.1
 
     #read files
-    directory = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\container\test"
+    directory = r"D:\test"
     files = [os.path.join(directory, filename) for filename in os.listdir(directory)]
 
     # Convert file paths to tasks (each task is a tuple)

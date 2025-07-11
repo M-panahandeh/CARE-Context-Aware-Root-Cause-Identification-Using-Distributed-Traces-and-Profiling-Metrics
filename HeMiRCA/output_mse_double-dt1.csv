@@ -1,0 +1,12 @@
+fault_name,expected_microservice1,expected_microservice2,rank1,rank2,num_with_same_score1,num_with_same_score2
+assurance+seat_cpu_1021,ts-assurance-service,ts-seat-service,18,35.0,1,0
+basic+train_cpu_1017,ts-basic-service,ts-train-service,7,4.0,1,5
+basic+train_cpu_1021,ts-basic-service,ts-train-service,6,32.0,1,0
+basic+train_delay_1021,ts-basic-service,ts-train-service,5,32.0,1,0
+food+seat_cpu_1017,ts-food-service,ts-seat-service,14,5.0,1,1
+order+train_cpu_1021,ts-order-service,ts-train-service,18,4.0,1,4
+order-other+assurance_cpu_1021,ts-order-service,,20,,1,0
+price+admin-order_cpu_1021,ts-price-service,ts-admin-service,7,,1,0
+station+basic_delay_1021,ts-station-service,ts-basic-service,5,8.0,1,1
+train+order_delay_1021,ts-train-service,ts-order-service,2,25.0,2,0
+user+verification-code_cpu_1021,ts-user-service,ts-verification-service,5,,1,0

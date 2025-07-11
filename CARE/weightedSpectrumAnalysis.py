@@ -681,7 +681,7 @@ if __name__ == '__main__':
         total_memory = 0
         total_cpu = 0
 
-        folder_path = r"D:\MYDESK\MyPhd\--Thesis--\paper3\data\A\microservice\NewLabeld_alpha_final"
+        folder_path = r"D:\NewLabeld_alpha_final"
         file_paths = [os.path.join(folder_path, filename) for filename in os.listdir(folder_path)]
         # Create a DataFrame
         df = pd.DataFrame(columns=['Filename', 'Rank', 'Score', 'Number of Services with Equal Ranks'])
