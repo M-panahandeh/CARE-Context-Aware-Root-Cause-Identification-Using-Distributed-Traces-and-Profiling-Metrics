@@ -1,0 +1,6 @@
+Run AnomalyDetection to add time-stamp to the data format
+Run Data-preprocessing to generate both normal and abnormal vectors
+Run DataFormatting1,DataFormatting2 for generating profiling metrics for each service and also fault injection file
+Run run_anomaly_scoring to do anomaly detection and get abnormal scores 
+Run Correlation_calculation to identify rootcauses
+Run Evaluation for the final result  
