@@ -1,23 +1,15 @@
 # CARE-Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics
-<<<<<<< Updated upstream
-This repository contains scripts and resources for **CARE** Context-Aware Root Cause Identification Using Distributed Traces and Profiling Metrics), along with adjusted implementations of similar approaches for comparative analysis. The included methods are:
 
-=======
 This repository contains scripts and resources for **CARE** Context-Aware Root Cause Identification Using Distributed Traces and Profiling Metrics, along with adjusted implementations of similar approaches for comparative analysis. The included methods are:
->>>>>>> Stashed changes
+
 **CARE (Context-Aware Root Cause Identification)**: Our proposed approach, with a sub-directory `GNN_Parallelization` representing the GNN community detection component of CARE.
 
 **Regular Spectrum Analysis**: Traditional root cause identification using spectrum analysis.
 
 **MicroRank**: Adapted for our dataset and double root cause detection while retaining its original methodology. [MicroRank GitHub Repository](https://github.com/IntelligentDDS/MicroRank/tree/main)
-<<<<<<< Updated upstream
 
 **TraceRCA**: Customized to suit our experiments, based on its original approach. [TraceRCA GitHub Repository](https://github.com/NetManAIOps/TraceRCA)
-=======
-**TraceRCA**: Customized to suit our experiments, based on its original approach. [TraceRCA GitHub Repository]([https://github.com/IntelligentDDS/MicroRank/tree/main](https://github.com/NetManAIOps/TraceRCA?tab=readme-ov-file))
-**HeMiRCA**: Reproduced for our datasets (single and double rootcauses) while retaining its original methodology.
-()
->>>>>>> Stashed changes
+**HeMiRCA**: Reproduced according to our datasets, based on its original implementation. [HeMiRCA GitHub Repositort(https://github.com/zhouruixingzhu/HeMiRCA)]
 
 **Second Dataset**: This folder includes adjusted scripts of each approach for the second dataset.
 
