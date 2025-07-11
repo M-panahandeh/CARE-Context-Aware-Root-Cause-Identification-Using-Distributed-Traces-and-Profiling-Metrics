@@ -10,7 +10,7 @@ This repository contains scripts and resources for **CARE** Context-Aware Root C
 
 **TraceRCA**: Customized to suit our experiments, based on its original approach. [TraceRCA GitHub Repository](https://github.com/NetManAIOps/TraceRCA)
 
-**HeMiRCA**: Reproduced according to our datasets, based on its original implementation. [HeMiRCA GitHub Repositort(https://github.com/zhouruixingzhu/HeMiRCA)]
+**HeMiRCA**: Reproduced according to our datasets, based on its original implementation. [HeMiRCA GitHub Repositorty](https://github.com/zhouruixingzhu/HeMiRCA)
 
 **Second Dataset**: This folder includes adjusted scripts of each approach for the second dataset.
 
